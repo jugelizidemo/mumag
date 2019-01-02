@@ -57,7 +57,8 @@ func handlePlayCommand(tokens []string) {
 }
 
 func main() {
-	fmt.Println("Enter following commands to control the player: \n",
+	fmt.Println("WELCOME TO MUMAG\n",
+		"enter following commands to control the player: \n",
 		"lib list -- View the existing music lib \n",
 		"lib add <name><artist><source><type> -- Add a music to the music lib\n",
 		"lib remove <name> -- Remove the specified music from the lib\n",
